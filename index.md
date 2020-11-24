@@ -38,14 +38,14 @@
 
         <!-- Automatic Slideshow Images -->
         <div class="mySlides w3-display-container w3-center">
-            <img src="ph1.jpg" style="width:100%">
+            <img src="ph1.jpeg" style="width:100%">
             <div class="w3-display-topmiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
                 <h3>Hello everyone!</h3>
                 
             </div>
         </div>
         <div class="mySlides w3-display-container w3-center">
-            <img src="ph2.jpg" style="width:100%">
+            <img src="ph2.jpeg" style="width:100%">
             <div class="w3-display-topmiddle w3-container w3-text-black w3-padding-32 w3-hide-small">
                 <h3></h3>
                 <p><b></b></p>
