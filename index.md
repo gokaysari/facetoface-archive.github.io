@@ -1,37 +1,131 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<title>faces</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" sizes="300x300" type="image/ico" href="icon.jpeg" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body {
+        font-family: "Lato", sans-serif
+    }
 
-You can use the [editor on GitHub](https://github.com/gokaysari/facetoface-archive.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+    .mySlides {
+        display: none
+    }
+</style>
+<body>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-black w3-card">
+            <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+            <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Cattie</a>
+            <a href="iletisim.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">We're here</a>
+        </div>
+    </div>
 
-### Markdown
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+    <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+        <a href="index.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Main</a>
+        <a href="iletisim.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">We're here</a>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    </div>
+    <!-- Page content -->
+    <div class="w3-content" style="max-width:2000px;margin-top:46px">
 
-```markdown
-Syntax highlighted code block
+        <!-- Automatic Slideshow Images -->
+        <div class="mySlides w3-display-container w3-center">
+            <img src="ph1.jpg" style="width:100%">
+            <div class="w3-display-topmiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+                <h3>Hello everyone!</h3>
+                
+            </div>
+        </div>
+        <div class="mySlides w3-display-container w3-center">
+            <img src="ph2.jpg" style="width:100%">
+            <div class="w3-display-topmiddle w3-container w3-text-black w3-padding-32 w3-hide-small">
+                <h3></h3>
+                <p><b></b></p>
+            </div>
+        </div>
 
-# Header 1
-## Header 2
-### Header 3
+    </div>
+    </div>
 
-- Bulleted
-- List
+    <!-- The about Section -->
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
 
-1. Numbered
-2. List
+    </div>
 
-**Bold** and _Italic_ and `Code` text
+    <!-- Ticket Modal -->
+    <!-- The Contact Section -->
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+        <h2 class="w3-wide w3-center">You can contact us!</h2>
+        <p class="w3-opacity w3-center"><i></i></p>
+        <div class="w3-row w3-padding-32">
+            <div class="w3-col m6 w3-large w3-margin-bottom">
+                <i class="fa fa-map-marker" style="width:30px"></i>Istanbul,TR<br>
 
-[Link](url) and ![Image](src)
-```
+                <i class="fa fa-envelope" style="width:30px"> </i> Email: gkysari@gmail.com<br>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+            </div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gokaysari/facetoface-archive.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+        </div>
+    </div>
 
-### Support or Contact
+    <!-- End Page Content -->
+    </div>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+    <!-- Image of location/map -->
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-20 w3-center w3-opacity w3-light-grey w3-xlarge">
+        <a href="https://www.instagram.com/gizemthegizem/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+        <a href="https://www.instagram.com/gokaaysari/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+
+        
+
+        <p class="w3-medium">©2020|Tüm Hakları Saklıdır|Tarafımdan</p>
+    </footer>
+
+    <script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 4000);
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+    </script>
+
+</body>
+</html>
