@@ -44,20 +44,42 @@
                 
             </div>
         </div>
-        <div class="mySlides w3-display-container w3-center">
-            <img src="ph2.jpeg" style="width:100%">
-            <div class="w3-display-topmiddle w3-container w3-text-black w3-padding-32 w3-hide-small">
-                <h3></h3>
-                <p><b></b></p>
-            </div>
-        </div>
+        
 
     </div>
     </div>
 
     <!-- The about Section -->
     <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+        <!-- The about Section -->
+    <div class="w3-black" id="tour">
+        <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+     
+            <p class="w3-opacity w3-center"><i></i></p><br>
 
+
+
+            <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+                <div class="w3-third w3-margin-bottom">
+                    <img src="ph1.jpeg" alt="1" style="width:100%" class="w3-hover-opacity">
+                    <div class="w3-container w3-white">
+                 </div>
+                </div>
+                <div class="w3-third w3-margin-bottom">
+                    <img src="ph2.jpeg" alt="2" style="width:100%" class="w3-hover-opacity">
+                    <div class="w3-container w3-white">
+                        
+                    </div>
+                </div>
+                <div class="w3-third w3-margin-bottom">
+                    <img src="ph3.jpeg" alt="3" style="width:100%" class="w3-hover-opacity">
+                    <div class="w3-container w3-white">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
 
     <!-- Ticket Modal -->
