@@ -37,25 +37,16 @@
     <div class="w3-content" style="max-width:2000px;margin-top:46px">
 
         <!-- Automatic Slideshow Images -->
-        <div class="mySlides w3-display-container w3-center">
-            <img src="ph1.jpeg" style="width:100%">
-            <div class="w3-display-topmiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-                <h3>Hello everyone!</h3>
-                
-            </div>
-        </div>
-        
+
 
     </div>
-    </div>
+    
 
     <!-- The about Section -->
-    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
-        <!-- The about Section -->
     <div class="w3-black" id="tour">
         <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
-     
-            <p class="w3-opacity w3-center"><i>Hello everyone!</i></p><br>
+            <h2 class="w3-wide w3-center">Hello everyone!</h2>
+            <p class="w3-opacity w3-center"><i></i></p><br>
 
 
 
@@ -80,7 +71,9 @@
             </div>
         </div>
     </div>
-    </div>
+
+
+
 
     <!-- Ticket Modal -->
     <!-- The Contact Section -->
