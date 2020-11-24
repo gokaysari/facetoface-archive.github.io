@@ -55,7 +55,7 @@
     <div class="w3-black" id="tour">
         <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
      
-            <p class="w3-opacity w3-center"><i></i></p><br>
+            <p class="w3-opacity w3-center"><i>Hello everyone!</i></p><br>
 
 
 
