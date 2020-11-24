@@ -42,32 +42,72 @@
     </div>
     
 
-        <!-- The Tour Section -->
+    <!-- The about Section -->
     <div class="w3-black" id="tour">
         <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
             <h2 class="w3-wide w3-center">Hello everyone!</h2>
-            
+           
 
 
 
             <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
                 <div class="w3-third w3-margin-bottom">
                     <img src="ph1.jpeg" alt="1" style="width:100%" class="w3-hover-opacity">
-                    
+                    <div class="w3-container w3-white">
+                 </div>
                 </div>
-                
                 <div class="w3-third w3-margin-bottom">
                     <img src="ph2.jpeg" alt="2" style="width:100%" class="w3-hover-opacity">
-                    
+                    <div class="w3-container w3-white">
+                        
+                    </div>
                 </div>
-                
                 <div class="w3-third w3-margin-bottom">
                     <img src="ph3.jpeg" alt="3" style="width:100%" class="w3-hover-opacity">
+                    <div class="w3-container w3-white">
+
+                    <div class="w3-third w3-margin-bottom">
+                    <img src="ph4.jpeg" alt="3" style="width:100%" class="w3-hover-opacity">
                 </div>
+
+                <div class="w3-third w3-margin-bottom">
+                    <img src="ph5.jpeg" alt="3" style="width:100%" class="w3-hover-opacity">
+                </div>
+
+                <div class="w3-third w3-margin-bottom">
+                    <img src="ph6.jpeg" alt="3" style="width:100%" class="w3-hover-opacity">
+                </div>
+
+                <div class="w3-third w3-margin-bottom">
+                    <img src="ph7.jpeg" alt="3" style="width:100%" class="w3-hover-opacity">
+                </div>
+
+                <div class="w3-third w3-margin-bottom">
+                    <img src="ph8.jpeg" alt="3" style="width:100%" class="w3-hover-opacity">
+                </div>
+
+                <div class="w3-third w3-margin-bottom">
+                    <img src="ph9.jpeg" alt="3" style="width:100%" class="w3-hover-opacity">
+                </div>
+
+                <div class="w3-third w3-margin-bottom">
+                    <img src="ph10.jpeg" alt="3" style="width:100%" class="w3-hover-opacity">
+                </div>
+
+                <div class="w3-third w3-margin-bottom">
+                    <img src="ph11.jpeg" alt="3" style="width:100%" class="w3-hover-opacity">
+                </div>
+
+                <div class="w3-third w3-margin-bottom">
+                    <img src="ph12.jpeg" alt="3" style="width:100%" class="w3-hover-opacity">
+                </div>
+
+                    </div>
                 </div>
             </div>
         </div>
-    
+    </div>
+
 
 
 
