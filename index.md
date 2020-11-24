@@ -42,36 +42,32 @@
     </div>
     
 
-    <!-- The about Section -->
+        <!-- The Tour Section -->
     <div class="w3-black" id="tour">
         <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
             <h2 class="w3-wide w3-center">Hello everyone!</h2>
-           
+            
 
 
 
             <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
                 <div class="w3-third w3-margin-bottom">
                     <img src="ph1.jpeg" alt="1" style="width:100%" class="w3-hover-opacity">
-                    <div class="w3-container w3-white">
-                 </div>
+                    
                 </div>
+                
                 <div class="w3-third w3-margin-bottom">
                     <img src="ph2.jpeg" alt="2" style="width:100%" class="w3-hover-opacity">
-                    <div class="w3-container w3-white">
-                        
-                    </div>
+                    
                 </div>
+                
                 <div class="w3-third w3-margin-bottom">
                     <img src="ph3.jpeg" alt="3" style="width:100%" class="w3-hover-opacity">
-                    <div class="w3-container w3-white">
-
-                    </div>
+                </div>
                 </div>
             </div>
         </div>
-    </div>
-
+    
 
 
 
